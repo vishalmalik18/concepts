@@ -1,0 +1,67 @@
+-> both distribution for discreate 
+
+Bernoulli Distribution — One Trial
+
+    Think of it as a special case of the Binomial distribution with just 1 trial.
+
+    It tells the probability of success (1) or failure (0) in a single experiment.
+
+Example:
+
+    Toss a coin once → Get head (1) or tail (0)
+
+    Check if a light bulb is defective or not (1 = defective, 0 = not
+
+
+--------
+
+Binomial Distribution — Multiple Trials
+
+    This is the sum of several independent Bernoulli trials.
+
+    It tells the probability of getting a certain number of successes in n trials.
+
+Example:
+
+    Toss a coin 10 times → What’s the chance of getting 6 heads?
+
+    Test 100 bulbs → What’s the chance that exactly 3 are defective?
+
+
+-> Relationship Between Them
+
+    Bernoulli is the building block of Binomial.
+
+    If you repeat Bernoulli trials n times, the total number of successes follows a Binomial distribution.
+
+
+Binomial Distribution formula :- 
+    P(X=k) =  (k/n​)*p k(1−p)n− k
+
+n = total number of trials
+
+kk = number of successes you want
+
+pp = probability of success
+
+(nk)(kn​) = combinations (ways to choose kk successes out of nn trials)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

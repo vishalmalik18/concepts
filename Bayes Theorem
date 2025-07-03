@@ -32,4 +32,13 @@ It uses what you knew before (your guess before seeing the wet ground) and what 
 now (the wet ground) to make a better guess.
 ---
 
+-
+P(H∣E) = Posterior Probability: Probability of hypothesis HH after seeing evidence EE.
+
+P(E∣H)P(E∣H) = Likelihood: Probability of evidence EE assuming hypothesis HH is true.
+
+P(H)P(H) = Prior Probability: Initial probability of hypothesis HH before seeing evidence.
+
+P(E)P(E) = Marginal Likelihood (or Evidence): Total probability of evidence EE under all possible hypotheses.
+
 

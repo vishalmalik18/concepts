@@ -42,3 +42,19 @@ P(H)P(H) = Prior Probability: Initial probability of hypothesis HH before seeing
 P(E)P(E) = Marginal Likelihood (or Evidence): Total probability of evidence EE under all possible hypotheses.
 
 
+f P(E)P(E) is expanded, it can be written as:
+P(E)=   P(E|H) × P(H) + P (E|¬H) × P (¬H)
+
+¬H means "not H" (the hypothesis is false).
+
+P(E|¬H) is the likelihood of the evidence when the hypothesis is false.
+
+P(¬H) is the prior probability that the hypothesis is false.
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+Bayes Therom
+
+how to update the probabilityof a hypothesis based on new evidence.
+It provides a way to calculate the conditional probability of an event, given 
+prior knowledge of conditions related to the event.
+
+formula -> P(A/B) =  P(B|A) * P(A) / p(B)
+
+exp:-
+---
+Normally, only 10 out of 100 emails you get are spam. (So, 10% of emails are spam.)
+
+But today, you see an email with the word "prize" in it.
+
+You know that spam emails often say "prize" (maybe 80% of spam emails have that word).
+
+But normal emails almost never say "prize" (only 1% of normal emails have that word).
+
+---
+
+---
+    You wake up and see that the ground is wet.
+
+    You think: "Maybe it rained last night."
+
+    But you also remember: "Maybe someone watered the garden."
+
+Bayes' Theorem helps you answer:
+👉 “Given that the ground is wet, how likely is it that it rained?”
+
+It uses what you knew before (your guess before seeing the wet ground) and what you see 
+now (the wet ground) to make a better guess.
+---
+
+

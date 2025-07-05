@@ -1,0 +1,16 @@
+
+{
+  "activation_functions":["relu",
+                          "LeakyReLU",
+                          "sigmoid",
+                          "softmax",
+                          "tanh",
+                          "liner"],
+
+  "loss_functions":["binary_crossentropy",
+                    "SparseCategoricalCrossentropy",
+                    "CategoricalCrossentropy",
+                    "mean_squared_error",
+                    "mean_absolute_error",
+                    "CosineSimilarity"]
+}

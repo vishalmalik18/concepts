@@ -1,0 +1,51 @@
+In neural networks, an optimizer is an algorithm or method used to adjust the weights and biases of 
+the model during training in order to minimize the loss function. The loss function quantifies how well
+the model's predictions match the actual data, and the optimizer helps in updating the model parameters to improve 
+its performance.
+
+Key Functions of an Optimizer:
+
+1) - Weight Updates: The optimizer calculates gradients (using techniques like backpropagation) and uses these 
+     gradients to update the model's parameters.
+    
+2) - Convergence: It helps the training process converge to a minimum point of the loss function,
+     ideally finding the best set of parameters for the model.
+  
+3) - Efficiency: Different optimizers have different approaches to speed up convergence and handle issues 
+     like local minima, saddle points, or noisy gradients.
+
+Common Optimizers:
+
+    Stochastic Gradient Descent (SGD): Updates parameters using a small batch of data at each iteration, 
+                                       which introduces noise but can help escape local minima.
+
+    Adam (Adaptive Moment Estimation): Combines the benefits of two other extensions of SGD (AdaGrad and RMSProp)
+                                       to adaptively adjust the learning rate for each parameter.
+
+    RMSProp: Maintains a moving average of the squared gradients to normalize the gradients, which helps in
+             dealing with the vanishing/exploding gradient problem.
+
+    Adagrad: Adapts the learning rate based on the frequency of updates to each parameter,
+             allowing for larger updates for infrequent parameters.
+
+Importance:
+Choosing the right optimizer can significantly impact the training speed and the quality of the final model.
+Different tasks and datasets may require different optimizers to achieve optimal results.
+
+
+Adam -> 
+first calculate how wrong the weights are (gradients).
+
+How big the average gradient is.
+How much the gradient changes over time. - varience 
+
+If something changes a lot, it takes a smaller step.
+If something changes smoothly, it takes a bigger step.
+Automatically adjusts the learning rate.
+
+
+
+
+
+
+

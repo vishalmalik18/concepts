@@ -1,0 +1,17 @@
+Type I Error (False Positive):
+    Rejecting the null hypothesis (H₀) when it is actually true.
+
+Example:
+Suppose we are testing whether the average exam score is 75.
+
+    H₀: The average score = 75
+
+    H₁: The average score ≠ 75
+
+If the true average is indeed 75, but our test leads us to reject H₀, we have made a Type I Error.
+
+    Type II Error (False Negative):
+    Failing to reject the null hypothesis (H₀) when it is actually false.
+
+Example:
+If the actual average exam score is 70, but our test fails to reject H₀ (we conclude the average is 75), we have committed a Type II Error

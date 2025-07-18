@@ -19,3 +19,24 @@ We use cumsum to keep count of how many defective parts we have found so far.
 It helps to track defects over time and see if the defect rate is increasing or stable.
 
 This is useful in manufacturing to check if the production is doing well or needs improvement!
+
+
+np.random.seed(42)
+
+defect_prob = 0.10
+
+parts_1000 = np.random.choice([0, 1], size=1000, p=[1-defect_prob, defect_prob])
+parts_2000 = np.random.choice([0, 1], size=2000, p=[1-defect_prob, defect_prob])
+
+
+cdf_1000 = np.cumsum(parts_1000) / np.arange(1, 1001)
+cdf_2000 = np.cumsum(parts_2000) / np.arange(1, 2001)
+
+plt.plot(cdf_1000, label='CDF for 1000 Parts')
+plt.plot(cdf_2000, label='CDF for 2000 Parts')
+plt.title('CDF of Defective Parts')
+plt.xlabel('Number of Parts Tested')
+plt.ylabel('Cumulative Defect Rate')
+plt.legend()
+plt.grid(True)
+plt.show()

@@ -1,0 +1,6 @@
+ CDF (Cumulative Distribution Function) 
+gives the probability that a random variable is less than or equal to a specific value
+
+Example:
+If CDF(10) = 0.8, it means:
+    There is an 80% chance that the value is 10 or less.

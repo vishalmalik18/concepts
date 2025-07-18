@@ -6,3 +6,16 @@ If CDF(10) = 0.8, it means:
     There is an 80% chance that the value is 10 or less
 
 P ->(0-1)
+
+cumsum -> cumsum means adding up numbers step by step.
+          For example:
+          If you have parts like this:
+          [1, 0, 1, 1, 0]
+          Where 1 = defective and 0 = non-defective.
+
+Why we use it in defect checking?
+
+We use cumsum to keep count of how many defective parts we have found so far.
+It helps to track defects over time and see if the defect rate is increasing or stable.
+
+This is useful in manufacturing to check if the production is doing well or needs improvement!

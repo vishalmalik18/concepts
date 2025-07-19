@@ -1,0 +1,15 @@
+Conditional probability 
+means the chance of something happening when you already know that something else has happened
+
+P(A∣B)=P(B)P(A∩B)​
+
+Example:
+
+If you have a deck of cards and you know the card drawn is a red card, what is the probability that it is a heart?
+
+    Probability of heart given red:
+
+P(Heart | Red)=1326=0.5
+P(Heart | Red)=2613​=0.5
+
+Because there are 13 hearts out of 26 red cards.

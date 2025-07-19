@@ -13,3 +13,9 @@ P(Heart | Red)=1326=0.5
 P(Heart | Red)=2613​=0.5
 
 Because there are 13 hearts out of 26 red cards.
+
+
+The True Positive Rate (TPR), also known as Sensitivity, measures how well a test identifies defective parts correctly.
+TPR= True Positives​/Total Defective Parts
+
+

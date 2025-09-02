@@ -1,0 +1,19 @@
+### 📌 Notation
+
+* **$H_{in}$** → Input **height** (number of rows / pixels vertically)
+
+* **$W_{in}$** → Input **width** (number of columns / pixels horizontally)
+
+* **$C_{in}$** → Input **channels** (e.g., 1 for grayscale, 3 for RGB)
+
+* **$F_h$** → Filter height
+
+* **$F_w$** → Filter width
+
+* **$S$** → Stride (step size)
+
+* **$P$** → Padding
+
+* **$K$** → Number of filters (output channels)
+
+

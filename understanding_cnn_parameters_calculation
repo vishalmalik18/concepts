@@ -1,19 +1,19 @@
 ### 📌 Notation
 
-* **$H_{in}$** → Input **height** (number of rows / pixels vertically)
+ H_{in}$** → Input **height** (number of rows / pixels vertically)
 
-* **$W_{in}$** → Input **width** (number of columns / pixels horizontally)
+ W_{in} → Input **width** (number of columns / pixels horizontally)
 
-* **$C_{in}$** → Input **channels** (e.g., 1 for grayscale, 3 for RGB)
+ C_{in} → Input **channels** (e.g., 1 for grayscale, 3 for RGB)
 
-* **$F_h$** → Filter height
+ F_h → Filter height
 
-* **$F_w$** → Filter width
+ F_w → Filter width
 
-* **$S$** → Stride (step size)
+ S → Stride (step size)
 
-* **$P$** → Padding
+ P → Padding
 
-* **$K$** → Number of filters (output channels)
+ K → Number of filters (output channels)
 
 

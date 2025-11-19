@@ -22,3 +22,30 @@ Do NOT repeat at fixed intervals
 Are NOT predictable like seasonality
 
 Last for longer periods (years, decades)
+
+
+Stationary means NO trend
+
+Because in stationary data, the mean stays constant over time.
+
+But trend means the mean is changing over time.
+
+So:
+
+👉 If data has trend, it cannot be stationary.
+👉 If data is stationary, it cannot have a trend.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

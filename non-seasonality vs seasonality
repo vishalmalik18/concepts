@@ -1,0 +1,15 @@
+Non-seasonal time series
+
+No fixed, repeating cycle
+
+Data does not follow a predictable repetition
+
+Example: stock prices
+
+Seasonal time series
+
+Follows a predictable, repeating pattern
+
+Happens at consistent time intervals (every day, week, month, year)
+
+Example: ice cream sales rise every summer

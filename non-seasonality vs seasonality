@@ -13,3 +13,12 @@ Follows a predictable, repeating pattern
 Happens at consistent time intervals (every day, week, month, year)
 
 Example: ice cream sales rise every summer
+
+
+Cyclic means up-and-down movements in the data that:
+
+Do NOT repeat at fixed intervals
+
+Are NOT predictable like seasonality
+
+Last for longer periods (years, decades)

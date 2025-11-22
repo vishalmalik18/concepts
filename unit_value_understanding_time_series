@@ -1,0 +1,85 @@
+# ⭐ Case 1: ϕ = 1
+
+### 📌 Meaning: “Today = yesterday + random change”
+
+### 📌 What happens: It **keeps going up and down forever**, no stability.
+
+### Example:
+
+Imagine a drunk person walking:
+
+* Step 1: stands at position 0
+* Step 2: moves +1 step
+* Step 3: moves –2 steps
+* Step 4: moves +3 steps
+
+He **never comes back to a fixed place**.
+He just **wanders randomly**.
+
+This is **non-stationary**.
+
+---
+
+# ⭐ Case 2: ϕ < 1
+
+### 📌 Meaning: “Today depends a little on yesterday.”
+
+### 📌 What happens: It stays around some average value.
+
+### Example:
+
+Temperature:
+
+* 29°C
+* 31°C
+* 30°C
+* 28°C
+* 32°C
+
+It goes up and down
+BUT
+it always comes back around **30°C**.
+
+This is **stationary**.
+
+---
+
+# ⭐ Case 3: ϕ > 1
+
+### 📌 Meaning: “Today becomes even BIGGER than yesterday.”
+
+### 📌 What happens: Numbers **explode**.
+
+### Example:
+
+Someone doubles money every day:
+
+* ₹100
+* ₹120
+* ₹144
+* ₹172
+* ₹207
+* ... keeps growing
+
+This **blows up**.
+
+This is **explosive**, not stationary.
+
+---
+
+# ⭐ Final SIMPLE summary:
+
+| ϕ value   | Easy meaning                          | What happens                  |
+| --------- | ------------------------------------- | ----------------------------- |
+| **ϕ = 1** | Today = yesterday                     | Wanders randomly → not stable |
+| **ϕ < 1** | Today depends *a little* on yesterday | Stays around a stable mean    |
+| **ϕ > 1** | Today becomes bigger than yesterday   | Explodes forever              |
+
+---
+
+# ⭐ SUPER SIMPLE one-line explanation:
+
+* **ϕ = 1 → No stability (random walk)**
+* **ϕ < 1 → Stable (stationary)**
+* **ϕ > 1 → Explodes (blows up)**
+
